@@ -1,0 +1,150 @@
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.offset-1 {
+  margin-left: 8.33333%; }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
+.offset-3 {
+  margin-left: 25%; }
+
+.offset-4 {
+  margin-left: 33.33333%; }
+
+.offset-5 {
+  margin-left: 41.66667%; }
+
+.offset-6 {
+  margin-left: 50%; }
+
+.offset-7 {
+  margin-left: 58.33333%; }
+
+.offset-8 {
+  margin-left: 66.66667%; }
+
+.offset-9 {
+  margin-left: 75%; }
+
+.offset-10 {
+  margin-left: 83.33333%; }
+
+.offset-11 {
+  margin-left: 91.66667%; }
+
+.offset-12 {
+  margin-left: 100%; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+[class*="offset-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+body {
+  background-color: #1a1a1a;
+  font-family: "Pavanam", sans-serif; }
+
+header {
+  background-color: #870100;
+  margin-bottom: 2rem; }
+  header h1 {
+    font-family: "Cinzel Decorative", cursive;
+    color: #FECD04; }
+  header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 1rem; }
+
+#fotos div {
+  border: 3px solid #fff;
+  padding: 0 1rem 1rem;
+  text-align: right; }
+  #fotos div span {
+    color: #fff;
+    font-size: 2rem; }
+  #fotos div img {
+    width: 100%; }
+
+#botonera button {
+  width: 30%;
+  background-color: #FECD04;
+  padding: 5px 0;
+  border-radius: 3px;
+  margin: 5px;
+  font-family: "Pavanam", sans-serif;
+  font-weight: 900;
+  color: #656565; }
+
+#textos p {
+  color: #fff;
+  line-height: 2rem;
+  text-align: justify; }
+  #textos p strong {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 900;
+    color: #FECD04; }
+
+footer {
+  background-color: #434343; }
+  footer p {
+    color: #fff;
+    font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */

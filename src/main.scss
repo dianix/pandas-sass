@@ -1,0 +1,105 @@
+@import 'variables';
+@import 'mixins';
+@import 'funciones';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.row {
+    &:before {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        @extend .row:before;
+        clear: both;
+    }
+}
+
+[class*="col-"] {
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+
+[class*="offset-"] {
+    min-height: 7px;
+    padding: 12px;
+    float: left;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: $fuente-texto;
+    
+}
+
+header {
+    background-color: $tono-ale;
+    margin-bottom: 2rem;
+    
+    h1 {
+        font-family: $fuente-titulos;
+        color: $amarillo-lager;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        padding: 0 1rem;
+    }
+}
+
+#fotos {
+    
+    div {
+        @include fotos__marco;
+        span {
+            color: #fff;
+            font-size: 2rem;
+        }
+        img {
+            @include fotos__foto;
+        }
+    }    
+}
+
+#botonera {
+    button {
+        @include botonera__boton;
+    }
+}
+
+#textos {
+    p {
+        color: #fff;
+        line-height: 2rem;
+        text-align: justify;
+        strong {
+            font-family: $fuente-titulos;
+            font-weight: 900;
+            color: $amarillo-lager;
+        }
+    }
+}
+
+footer {
+    
+    background-color: #434343;
+    
+    p {
+        color: #fff;
+        font-weight: bold;
+    }
+}
+

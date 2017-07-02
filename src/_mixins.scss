@@ -1,0 +1,20 @@
+@mixin fotos__marco {
+    border: 3px solid #fff;
+    padding: 0 1rem 1rem;
+    text-align: right;
+}
+
+@mixin fotos__foto {
+    width: 100%;
+}
+
+@mixin botonera__boton {
+    width: 30%;
+    background-color: $amarillo-lager;
+    padding: 5px 0;
+    border-radius: 3px;
+    margin: 5px;
+    font-family: $fuente-texto;
+    font-weight: 900;
+    color: #656565;
+}
