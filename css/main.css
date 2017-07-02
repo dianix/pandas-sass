@@ -119,36 +119,42 @@ header {
     font-weight: 500;
     padding: 0 1rem; }
 
-#fotos div {
-  border: 3px solid #fff;
-  padding: 0 1rem 1rem;
-  text-align: right; }
-  #fotos div span {
+#fotos {
+  margin-bottom: 1rem; }
+  #fotos div {
+    border: 3px solid #fff;
+    padding: 0 1rem 1rem;
+    text-align: right; }
+    #fotos div span {
+      color: #fff;
+      font-size: 2rem; }
+    #fotos div img {
+      width: 100%; }
+
+#botonera {
+  margin-bottom: 1rem; }
+  #botonera button {
+    width: 30%;
+    background-color: #FECD04;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: "Pavanam", sans-serif;
+    font-weight: bolder;
+    color: #870100;
+    text-transform: uppercase; }
+
+#textos {
+  margin-bottom: 1rem; }
+  #textos p {
     color: #fff;
-    font-size: 2rem; }
-  #fotos div img {
-    width: 100%; }
-
-#botonera button {
-  width: 30%;
-  background-color: #FECD04;
-  padding: 8px 0;
-  border: none;
-  border-radius: 5px;
-  margin: 5px;
-  font-family: "Pavanam", sans-serif;
-  font-weight: bolder;
-  color: #868686;
-  text-transform: uppercase; }
-
-#textos p {
-  color: #fff;
-  line-height: 2rem;
-  text-align: justify; }
-  #textos p strong {
-    font-family: "Cinzel Decorative", cursive;
-    font-weight: 900;
-    color: #FECD04; }
+    line-height: 2rem;
+    text-align: justify; }
+    #textos p strong {
+      font-family: "Cinzel Decorative", cursive;
+      font-weight: 900;
+      color: #FECD04; }
 
 footer {
   width: 100%;

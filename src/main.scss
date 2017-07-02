@@ -65,7 +65,7 @@ header {
 }
 
 #fotos {
-    
+    margin-bottom: 1rem;
     div {
         @include fotos__marco;
         span {
@@ -79,12 +79,14 @@ header {
 }
 
 #botonera {
+    margin-bottom: 1rem;
     button {
         @include botonera__boton;
     }
 }
 
 #textos {
+    margin-bottom: 1rem;
     p {
         color: #fff;
         line-height: 2rem;
