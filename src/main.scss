@@ -45,9 +45,13 @@ body {
 }
 
 header {
+    @include flex;
+    justify-content: space-between;
     background-color: $tono-ale;
     margin-bottom: 2rem;
-    
+    img {
+        @include vineta;
+    }
     h1 {
         font-family: $fuente-titulos;
         color: $amarillo-lager;
@@ -94,9 +98,13 @@ header {
 }
 
 footer {
+    @include flex;
+    justify-content: center;
+    background-color: complement($tono-ale);
     
-    background-color: #434343;
-    
+    img {
+        @include vineta;
+    }
     p {
         color: #fff;
         font-weight: bold;
